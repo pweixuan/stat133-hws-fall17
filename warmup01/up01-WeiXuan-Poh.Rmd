@@ -1,0 +1,58 @@
+---
+title: "Warmup 01"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+This document is my submission for the first warm up exercise, warm up 01.
+
+#**Skirt Steak and Potatoes with Herb Sauce Recipe**
+
+![Skirt Steak and Potatoes with Herb Sauce](https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.realsimple.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fportrait_435x518%2Fpublic%2Fimage%2Fimages%2Ffood-recipes%2Frecipe-collections%2F0706%2Fsteak-yams_300.jpg%3Fitok%3DSDiDnxl6&w=900&q=60)
+
+[*Original recipe here*](https://www.realsimple.com/food-recipes/browse-all-recipes/grilled-skirt-steak-potatoes-herb-sauce)
+
+##**Ingredients**  
+> * 2 cups fresh flat-leaf parsley
+> * 1/4 cup fresh oregano
+> * 2 cloves garlic
+> * 1 teaspoon red wine vinegar
+> * 1/2 cup extra-virgin olive oil
+> * 1/4 teaspoon cayenne pepper
+> * 3/4 teaspoon kosher salt
+> * 1 1/2 pounds skirt steak
+> * 1/2 teaspoon black pepper
+> * 1 1/2 pounds sweet potatoes, cut on the diagonal into 1/4-inch-thick slices
+
+##**Instructions**
+> 1. Heat grill to medium
+> 2. Pulse the parsley, oregano, and garlic in a food processor until roughly chopped. Add the vinegar, oil, cayenne and 1/2 teaspoon salt; pulse to combine. Set aside.
+> 3. Season the steak with the remaining salt and the pepper. Grill to desired doneness, about 4 minutes per side for medium-rare. Transfer to a cutting board; let rest 5 minutes before slicing.
+> 4. Meanwhile, toss the potatoes in a large bowl with 1/3 cup of the herb sauce.
+> 5. Place the potatoes on the grill in a single layer. Cook, turning once, until tender, about 4  minutes per side.
+> 6. Divide the steak and potatoes among plates and serve with the remaining herb sauce on the side.
+
+##**Description**
+Season | Variations in Recipe
+--- | ---
+Best in spring | Use sea salt in place of kosher salt
+
+  
+  
+#**Quadratic Equation**
+  
+The quadratic equation is listed as any equation having the form 
+$$ax^2+bx+c=0$$
+
+where *x* represents an unknown, and *a*, *b*, and *c* represent known numbers such that *a* is not equal to 0. If *a* = 0, then the equation is linear, not quadratic. The numbers *a*, *b*, and *c* are the coefficients of the equation, and may be distinguished by calling them, respectively, the quadratic coefficient, the linear coefficient and the constant or free term.
+  
+To derive the roots, or *x* of the general quadratic equation, the formula
+$$x=\frac{-b {\pm} \sqrt{b^2-4ac}}{2a}$$
+applies, with *a*, *b* and *c* being the coefficients of the general quadratic equation.
+  
+#**Reflections and Thoughts**
+I think the most difficult aspect was discovering things we did not know about already - such as finding out how to code R commands to properly display the equations.  
+I took about an hour and a half to two hours for this homework, and found the most time consuming portion to be just stringing and bring the entire code together.  
+This was the first time I was using markdown and so far, it has been quite intuitive.
