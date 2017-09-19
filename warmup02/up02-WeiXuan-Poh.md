@@ -2,6 +2,10 @@ Warmup 02
 ================
 
 ``` r
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+``` r
 github <- 'https://github.com/ucb-stat133/stat133-hws-fall17/'
 repo <- 'raw/master/warmup02/data/nba2017-salary-points.RData'
 
@@ -381,7 +385,7 @@ sd(salary)
 plot(density(salary))
 ```
 
-![](up02_WeiXuan_Poh_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png)
+![](up02-WeiXuan-Poh_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png)
 
 ``` r
 is.factor(position)
@@ -437,4 +441,4 @@ prop.table(table(position))
 barplot(table(position))
 ```
 
-![](up02_WeiXuan_Poh_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-1.png) No lists, 12 vectors Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+![](up02-WeiXuan-Poh_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-1.png) No lists, 12 vectors Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
