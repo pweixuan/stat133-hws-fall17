@@ -1,0 +1,112 @@
+---
+title: "Warmup 02"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+github <- 'https://github.com/ucb-stat133/stat133-hws-fall17/'
+repo <- 'raw/master/warmup02/data/nba2017-salary-points.RData'
+
+download.file(
+  url = paste0(github, repo),
+  destfile = "nba2017-salary-points.RData")
+# load the objects
+load("nba2017-salary-points.RData")
+
+# list the available objects
+ls()
+```
+
+```{r}
+class(experience)
+class(github)
+class(player)
+class(points)
+class(points1)
+class(points2)
+class(points3)
+class(position)
+class(repo)
+class(salary)
+class(team)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r}
+mode(experience)
+mode(github)
+mode(player)
+mode(points)
+mode(points1)
+mode(points2)
+mode(points3)
+mode(position)
+mode(repo)
+mode(salary)
+mode(team)
+```
+```{r}
+#Testing for vectors
+is.vector(experience)
+is.vector(github)
+is.vector(player)
+is.vector(points)
+is.vector(points1)
+is.vector(points2)
+is.vector(points3)
+is.vector(position)
+is.vector(repo)
+is.vector(salary)
+is.vector(team)
+```
+```{r}
+is.list(experience)
+is.list(github)
+is.list(player)
+is.list(points)
+is.list(points1)
+is.list(points2)
+is.list(points3)
+is.list(position)
+is.list(repo)
+is.list(salary)
+is.list(team)
+```
+```{r}
+length(experience)
+length(github)
+length(player)
+length(points)
+length(points1)
+length(points2)
+length(points3)
+length(position)
+length(repo)
+length(salary)
+length(team)
+```
+#Not all of them have the same length
+#Selected quantitative variable - salary
+#Selected categorical variable - position
+```{r}
+summary(salary)
+sd(salary)
+plot(density(salary))
+```
+```{r}
+is.factor(position)
+#False
+factor(position)
+table(position)
+prop.table(table(position))
+#Relatively equal with no major deviation
+barplot(table(position))
+```
+No lists, 12 vectors
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
